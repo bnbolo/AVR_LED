@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLog.xslt'?>
+<conversion conversiontitle="Upgrade Report - Atmel Software Framework Upgrade Log" subtitle1="Upgrading Modules From" subtitle2="to" date="2013年4月18日" time="23:17">
+  <general>
+    <log timestamp="04-18-2013 23-17-35">
+      <message>Unloading project</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-35">
+      <message>Project unload complete.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-41">
+      <message>Backing up of project started.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-41">
+      <message>Project backup completed.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-41">
+      <message>Reloading project after backup.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-42">
+      <message>Project reload complete.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-42">
+      <message>Upgrading of project started.</message>
+    </log>
+    <log timestamp="04-18-2013 23-17-58">
+      <message>Project upgrade complete</message>
+    </log>
+  </general>
+  <revert versiontext="3.7.2" description="Reverting from version">
+    <moduleinfo name="Interrupt management - megaAVR and tinyAVR implementation">
+      <action description="Delete framework file 'src\ASF\common\utils\interrupt.h'." result="SUCCESS" resulttext="" />
+      <action description="Delete framework file 'src\ASF\common\utils\interrupt\interrupt_avr8.h'." result="SUCCESS" resulttext="" />
+      <action description="Remove folder '../src/ASF/common/utils' from include search path." result="SUCCESS" resulttext="" />
+    </moduleinfo>
+  </revert>
+  <update versiontext="3.7.3" description="Upgrading to version">
+    <moduleinfo name="Interrupt management - megaAVR and tinyAVR implementation">
+      <action description="Import framework file as 'src\ASF\common\utils\interrupt.h'." result="SUCCESS" resulttext="" />
+      <action description="Import framework file as 'src\ASF\common\utils\interrupt\interrupt_avr8.h'." result="SUCCESS" resulttext="" />
+      <action description="Add folder '../src/ASF/common/utils' to include search path." result="SUCCESS" resulttext="" />
+    </moduleinfo>
+  </update>
+</conversion>

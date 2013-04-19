@@ -1,0 +1,127 @@
+(ExpressProject "AVR_LED"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\avr_led.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (RES_ADJ
+      (FullPartName "RES_ADJ.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (SW1_4
+      (FullPartName "SW1_4.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("PNP BCE"
+      (FullPartName "PNP BCE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (RGBLED_A
+      (FullPartName "RGBLED_A.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (RGBLED_K
+      (FullPartName "RGBLED_K.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("LED BI-COLOUR"
+      (FullPartName "LED BI-COLOUR.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (CON10A
+      (FullPartName "CON10A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (BEAD
+      (FullPartName "BEAD.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.3\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (74HC138
+      (FullPartName "74HC138.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AMS1117
+      (FullPartName "AMS1117.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ATTINY261A-PDIP_SOIC_TSSOP
+      (FullPartName "ATTINY261A-PDIP_SOIC_TSSOP.Normal")
+      (LibraryName
+         "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\LIBRARY\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 433"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 205 1523 29 500")
+        (Scroll "174 14")
+        (Zoom "142")
+        (Occurrence "/"))
+      (Path "C:\WORKSPACE\ELECTRONICS\AVR_LED\HARDWARE\AVR_LED.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_16.3\tools\capture\library")
+  (MPSSessionName "Benjamin Chen"))
